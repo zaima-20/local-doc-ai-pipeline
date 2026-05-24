@@ -1,0 +1,86 @@
+{
+  "contract_1.pdf": {
+    "class": "Other",
+    "confidence": 0.82
+  },
+  "invoice_1.pdf": {
+    "class": "Invoice",
+    "confidence": 0.91,
+    "invoice_number": "INV-1234",
+    "date": "2025-01-15",
+    "company": "ACME Corp Ltd",
+    "total_amount": 800.0
+  },
+  "invoice_2.pdf": {
+    "class": "Invoice",
+    "confidence": 0.9,
+    "invoice_number": "INV-5678",
+    "date": "2025-02-03",
+    "company": "TechSolutions Inc",
+    "total_amount": 2400.0
+  },
+  "invoice_3.pdf": {
+    "class": "Invoice",
+    "confidence": 0.91,
+    "invoice_number": "INV-9012",
+    "date": "2025-01-28",
+    "company": "GlobalSupply Co",
+    "total_amount": 525.5
+  },
+  "memo_1.pdf": {
+    "class": "Other",
+    "confidence": 0.79
+  },
+  "report_1.pdf": {
+    "class": "Other",
+    "confidence": 0.78
+  },
+  "resume_1.pdf": {
+    "class": "Resume",
+    "confidence": 0.85,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "555-234-5678",
+    "experience_years": 7
+  },
+  "resume_2.pdf": {
+    "class": "Resume",
+    "confidence": 0.85,
+    "name": "Michael Chen",
+    "email": "m.chen@techmail.com",
+    "phone": "555-876-5432",
+    "experience_years": 4
+  },
+  "resume_3.pdf": {
+    "class": "Resume",
+    "confidence": 0.84,
+    "name": "Priya Patel",
+    "email": "priya.patel@inbox.net",
+    "phone": "555-321-9876",
+    "experience_years": 10
+  },
+  "utility_1.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.86,
+    "account_number": "ACC-789012",
+    "date": "2025-02-01",
+    "usage_kwh": 582.0,
+    "amount_due": 78.34
+  },
+  "utility_2.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.87,
+    "account_number": "ACC-345678",
+    "date": "2025-01-15",
+    "usage_kwh": 1203.0,
+    "amount_due": 152.86
+  },
+  "utility_3.pdf": {
+    "class": "Utility Bill",
+    "confidence": 0.86,
+    "account_number": "ACC-901234",
+    "date": "2025-02-10",
+    "usage_kwh": 298.0,
+    "amount_due": 44.26
+  }
+}
