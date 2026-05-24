@@ -60,9 +60,3 @@ That's it. `output.json` will be created automatically.
 | `re` / `json` | Built-in Python — regex extraction and JSON output |
 
 ---
-
-## To use your own documents
-Change this line in **Step 1** to point to your folder:
-```python
-DOCS_FOLDER = 'sample_docs'   
-```
